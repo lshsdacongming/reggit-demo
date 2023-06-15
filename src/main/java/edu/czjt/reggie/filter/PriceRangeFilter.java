@@ -24,7 +24,7 @@ public class PriceRangeFilter implements Filter {
         HttpServletResponse response = (HttpServletResponse) servletResponse;
 
         // 获取本次请求的URI
-        String requestURI = request.getRequestURI();
+         String requestURI = request.getRequestURI();
         log.info("本次拦截到请求：{}", requestURI);
 
         // 判断本次请求是否需要验证
