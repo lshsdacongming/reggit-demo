@@ -36,7 +36,7 @@ public class WebMvcConfig extends WebMvcConfigurationSupport {
         registry.addResourceHandler("doc.html").addResourceLocations("classpath:/META-INF/resources/");
         registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
     }
-   // WebJars是一种将客户端库打包成JAR文件并以Maven依赖的形式引入到项目中的方法。
+    // WebJars是一种将客户端库打包成JAR文件并以Maven依赖的形式引入到项目中的方法。
     /**
      * 扩展mvc框架的消息转换器
      *
