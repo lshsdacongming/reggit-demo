@@ -8,6 +8,8 @@ import java.util.Map;
 /**
  * Created by jinkun.tian on 2023/3/21
  */
+//设计表现层返回结果的模型类，用于后端与前端进行数据格式统一，也称为前后端数据协议
+// 用来存放共同使用的类，把这个返回结果类放入这个公共包
 @Data
 public class R<T> {
 
