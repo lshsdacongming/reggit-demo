@@ -7,7 +7,7 @@ import edu.czjt.reggie.service.EmployeeService;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jinkun.tian on 2023/3/16
+ * Created by jiachunyan on 2023/6/14
  */
 @Service
 public class EmployeeServiceImpl extends ServiceImpl<EmployeeMapper, Employee> implements EmployeeService {
