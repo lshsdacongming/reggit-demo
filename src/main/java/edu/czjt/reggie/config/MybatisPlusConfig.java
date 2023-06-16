@@ -17,6 +17,7 @@ public class MybatisPlusConfig {
     public MybatisPlusInterceptor mybatisPlusInterceptor() {
         MybatisPlusInterceptor mybatisPlusInterceptor = new MybatisPlusInterceptor();
         mybatisPlusInterceptor.addInnerInterceptor(new PaginationInnerInterceptor());
+        //使用addInnerInterceptor方法添加一个内部拦截器这里使用的是PaginationInnerInterceptor，它是MyBatisPlus提供的分页拦截器。
         return mybatisPlusInterceptor;
     }
 }

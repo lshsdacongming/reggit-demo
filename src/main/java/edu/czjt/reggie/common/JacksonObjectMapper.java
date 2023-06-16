@@ -24,7 +24,8 @@ import static com.fasterxml.jackson.databind.DeserializationFeature.FAIL_ON_UNKN
  * 将JSON解析为Java对象的过程称为 [从JSON反序列化Java对象]
  * 从Java对象生成JSON的过程称为 [序列化Java对象到JSON]
  */
-//因为js对long数据类型精度丢失
+//mybatis-plus对id使用了雪花算法，因为js对long数据类型精度丢失
+//    后台的SQL语句使用的id和数据库中的id是不一样的！
 public class JacksonObjectMapper extends ObjectMapper {
 
     public static final String DEFAULT_DATE_FORMAT = "yyyy-MM-dd";
