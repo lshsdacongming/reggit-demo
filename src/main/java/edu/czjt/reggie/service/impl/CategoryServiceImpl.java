@@ -7,7 +7,7 @@ import edu.czjt.reggie.service.CategoryService;
 import org.springframework.stereotype.Service;
 
 /**
- * Created by jinkun.tian on 2023/4/27
+ * Created by jiachunyan on 2023/6/14
  */
 @Service
 public class CategoryServiceImpl extends ServiceImpl<CategoryMapper, Category> implements CategoryService {
