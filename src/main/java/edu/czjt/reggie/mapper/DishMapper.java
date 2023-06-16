@@ -5,7 +5,7 @@ import edu.czjt.reggie.entity.Dish;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * Created by jinkun.tian on 2023/4/27
+ * Created by wyx 2023/6/14
  */
 @Mapper
 public interface DishMapper extends BaseMapper<Dish> {
